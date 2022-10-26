@@ -1,34 +1,84 @@
-## Usage
+Я выполнил задание
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+Почти все элементы имеют анимации
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+Использовал TailwindCSS и SolidJS. Планировал писать на JS но оказалось быстрее и эфективнее все сделать через CSS 
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-## Available Scripts
+Поделил страницу на 3 компонента 
 
-In the project directory, you can run:
+1 Сайдбар - Sidebar
+2 Каналы - Channels
+3 Мэйн - Main
 
-### `npm dev` or `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+В 1м Сайдбар есть:
 
-The page will reload if you make edits.<br>
+1
+Пять фишек которые можно нажать и она будет выбрана
 
-### `npm run build`
+2
+Кажда фишка имеет анимацию ховер и выбор
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+3
+Ховер включает 
+    1 изменение цвета
+    2 Появление обрезанного прямоугольника Маленького слева
+    3 появление  подсказки типа Личный кабинет
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+4
+Выбор включает
+    1 изменение цвета
+    2 Появление обрезанного прямоугольника Большого слева
 
-## Deployment
+5 Есть анимация восклицательного знака над "+" или добавить сервер
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+
+
+
+
+Во 2м Каналы есть:
+
+1
+Шапка сервер 
+
+2
+Тело Текстовые каналы
+
+3
+Шапка ховер имеет ховер и выбор 
+
+4
+Ховер меняет цвет бэкграунд
+
+5
+Нажатие 
+    1 меняет цвет
+    2 показывает доп меню
+    3 В доп меню текст разными цветами и имеет ховер
+
+
+
+
+В 3м Мэйн
+
+1
+Большая часть статичные элементы
+
+2 
+Единственный интерактивный поиск сверху Search
+
+
+
+
+
+ИТОГ
+
+Конечно можно сделать гораздо лучше 
+Но потребует больше времени пока считаю это не совсем целесобразным
+Могу выполнить по требованию
+
+В целом потратил окола 5 часов
+
